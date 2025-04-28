@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meeting Recorder + Summarizer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container mt-4">
+      <h2 class="mb-4">Meeting Recorder + Deepseek Summarizer</h2>
+
+      <div class="mb-3">
+        <button class="btn btn-primary" id="startBtn">Mulai Rekam</button>
+        <button class="btn btn-danger" id="stopBtn" disabled>Stop Rekam</button>
+        <button class="btn btn-success" id="summarizeBtn" disabled>
+          Rangkum Meeting
+        </button>
+      </div>
+
+      <h4>Transkrip Meeting:</h4>
+      <div id="transcript">(Belum ada transkrip)</div>
+
+      <h4 class="mt-4">Ringkasan Meeting:</h4>
+      <div id="summary">(Belum ada ringkasan)</div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
