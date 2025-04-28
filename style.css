@@ -1,0 +1,14 @@
+#transcript,
+      #summary {
+        margin-top: 20px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        min-height: 100px;
+        background-color: #f9f9f9;
+        white-space: pre-wrap;
+      }
+      #transcript h3,
+      #summary h3 {
+        color: #333;
+        font-size: 1.2em;
+      }
